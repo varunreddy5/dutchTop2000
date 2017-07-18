@@ -1,0 +1,68 @@
+body{
+  font-family: 'Source Sans Pro',sans-serif;
+/*  font-family: 'Open Sans', sans-serif;*/
+  text-align: center;
+  background-color:#000;
+  overflow-x:hidden;
+  overflow-y:hidden;
+}
+#intro{
+/*
+  position:absolute;
+  width:200px;
+  left:100px;
+  z-index: 100;
+*/
+  color:white;
+}
+
+#chart{
+  position:relative;
+}
+
+.axis path,
+.axis line{
+  fill:none;
+  stroke:#FFF;
+  shape-rendering:crispEdges;
+}
+.axis text{
+  fill:#FFF;
+  stroke:none;
+  color:#FFF;
+}
+.tooltip{
+  position:absolute;
+  font-family: 'Source Sans Pro',sans-serif;
+  color:#575656;
+  text-align:center;
+  width:200px;
+  height:auto;
+  background-color: #FFF;
+  pointer-events: none;
+  border-radius:5px;
+  padding:10px;
+}
+.underline{
+  width:30px;
+  height:2px;
+  background-color: #CCC;
+}
+hr{
+  margin:5px 0;
+}
+.legend{
+}
+#footer{
+  text-align:left;
+  color:darkgray;
+  font-size: 11px;
+  margin-left:50px;
+}
+
+#footer span a{
+  color: darkgray;
+}
+#footer span a:hover{
+  color: royalblue;
+}
