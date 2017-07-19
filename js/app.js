@@ -1,5 +1,5 @@
 var w=1250,
-    h=550,
+    h=540,
     margin={
       left:35,
       right:35,
@@ -153,7 +153,7 @@ d3.json('data.json',function(error,data){
     .duration(50)
     .style('opacity',0.75);
     
-    div.html('<span style="text-transform:uppercase;font-size:16px;font-weight:800;">'+d.artist+'</span><hr><span class="underline" style="height:2px;width:30px;background-color:blue;"></span><span><i>'+d.year+'</i></span><br><span style="font-size:15px;">'+d.title+'</span><br><span>Position in Top 2000 : <b>'+d.position+'</b></span>')
+    div.html('<span style="text-transform:uppercase;font-size:16px;font-weight:800;">'+d.artist+'</span><hr><span><i>'+d.year+'</i></span><br><span style="font-size:15px;">'+d.title+'</span><br><span>Position in Top 2000 : <b>'+d.position+'</b></span>')
     .style('left',(d3.event.pageX-100)+'px')
     .style('top',(d3.event.pageY-150)+'px');
   })

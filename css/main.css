@@ -43,11 +43,7 @@ body{
   border-radius:5px;
   padding:10px;
 }
-.underline{
-  width:30px;
-  height:2px;
-  background-color: #CCC;
-}
+
 hr{
   margin:5px 0;
 }
@@ -65,4 +61,8 @@ hr{
 }
 #footer span a:hover{
   color: royalblue;
+}
+.underline{
+  width:150px;
+  margin:5px auto;
 }
